@@ -22,3 +22,81 @@ Error: spawn xdg-open ENOENT
     at ChildProcess._handle.onexit (node:internal/child_process:284:19)
     at onErrorNT (node:internal/child_process:477:16)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+  restarting on theme change
+
+
+  restarting...
+
+
+
+  ●■▲
+  Slidev  v51.5.0 
+
+  ! Unsupported Atomic CSS engine "./theme.css", fallback to UnoCSS
+  theme       @slidev/theme-default
+  css engine  unocss
+  entry       /home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/slides.md
+
+  public slide show   > http://localhost:3000/
+  presenter mode      > http://localhost:3000/presenter/
+  slides overview     > http://localhost:3000/overview/
+  export slides       > http://localhost:3000/export/
+  remote control      > http://172.17.0.2:3000/entry/
+
+  shortcuts           > restart | open | edit | quit | qrcode
+Error: spawn xdg-open ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[1m[33m[@vue/compiler-sfc][0m[33m `defineEmits` is a compiler macro and no longer needs to be imported.[0m
+
+11:22:14 AM [vite] (client) Pre-transform error: Failed to resolve import "./RecipeDetailModal.vue" from "components/RecipeGrid.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/components/RecipeGrid.vue:34:30
+  3  |  import { ref } from "vue";
+  4  |  import SearchBar from "./SearchBar.vue";
+  5  |  import RecipeDetailModal from "./RecipeDetailModal.vue";
+     |                                 ^
+  6  |  const cardStyle = "border:1.5px solid #eee;border-radius:12px;box-shadow:0 2.5px 12px 0 rgba(76,175,80,0.07);padding:1.2rem;background:#fff;cursor:pointer;transition:box-shadow .22s;";
+  7  |  const _sfc_main = /* @__PURE__ */ _defineComponent({
+11:22:19 AM [vite] Internal server error: Failed to resolve import "./RecipeDetailModal.vue" from "components/RecipeGrid.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/components/RecipeGrid.vue:34:30
+  3  |  import { ref } from "vue";
+  4  |  import SearchBar from "./SearchBar.vue";
+  5  |  import RecipeDetailModal from "./RecipeDetailModal.vue";
+     |                                 ^
+  6  |  const cardStyle = "border:1.5px solid #eee;border-radius:12px;box-shadow:0 2.5px 12px 0 rgba(76,175,80,0.07);padding:1.2rem;background:#fff;cursor:pointer;transition:box-shadow .22s;";
+  7  |  const _sfc_main = /* @__PURE__ */ _defineComponent({
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47885:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47882:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46015:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46134:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46061:7)
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47680:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:41327:27)
+      at async viteTransformMiddleware (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:42807:24)
+11:22:19 AM [vite] Internal server error: Failed to resolve import "./RecipeDetailModal.vue" from "components/RecipeGrid.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/components/RecipeGrid.vue:34:30
+  3  |  import { ref } from "vue";
+  4  |  import SearchBar from "./SearchBar.vue";
+  5  |  import RecipeDetailModal from "./RecipeDetailModal.vue";
+     |                                 ^
+  6  |  const cardStyle = "border:1.5px solid #eee;border-radius:12px;box-shadow:0 2.5px 12px 0 rgba(76,175,80,0.07);padding:1.2rem;background:#fff;cursor:pointer;transition:box-shadow .22s;";
+  7  |  const _sfc_main = /* @__PURE__ */ _defineComponent({
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47885:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47882:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46015:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46134:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:46061:7)
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47680:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:41327:27)
+      at async viteTransformMiddleware (file:///home/kavia/workspace/code-generation/recipeexplorer-32357-31e8955f/recipe_frontend_workspace/recipe_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:42807:24)
+[1m[33m[@vue/compiler-sfc][0m[33m `defineProps` is a compiler macro and no longer needs to be imported.[0m
+
